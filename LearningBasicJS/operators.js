@@ -66,3 +66,43 @@ let newNumber = 10;
 let newNumber1 = ++newNumber + ++newNumber
 
 console.log( newNumber, newNumber1 ); // 11, 11
+
+
+/* Assignment Operator */
+
+let age1 = 20;
+
+//age1 = age1 + 10;
+//age1 += 10;  // ==> Same as Above
+
+//age1 -= 10
+
+//age1 *=2
+
+//age1 /=2
+
+//age1 %=2
+
+age1 **=2
+
+console.log( age1 );
+
+
+// Relational Operator  or Comparision Operator
+
+
+console.log( 10 < 20 ); //Less Than
+
+console.log( 20 <= 20 ) // Less than Equal
+
+console.log( 20 > 19 ); // Greater than
+
+console.log( 40 <= 40 )  // Greater than or Equal to
+
+console.log ( 50 == '50' ) // Equalto
+
+console.log( 50 === '50' ); // Strict Equalto  ==> Both Data Type should Same or else should be False
+
+console.log( 40 != '20' ) // Not Equal
+
+console.log( 40 !== '40' ); // Strict Not Equal
