@@ -53,6 +53,16 @@ console.log( num3, num2 ); // 10, 11
 
 let number = 10;
 
-let number1 = number++ + number++ ;
+let number1 = number++;
 
 console.log( number, number1 ); // 12, 21
+
+// Pre Increment
+
+let newNumber = 10;
+
+//let newNumber1 = ++newNumber;
+
+let newNumber1 = ++newNumber + ++newNumber
+
+console.log( newNumber, newNumber1 ); // 11, 11
