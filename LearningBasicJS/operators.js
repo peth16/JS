@@ -106,3 +106,61 @@ console.log( 50 === '50' ); // Strict Equalto  ==> Both Data Type should Same or
 console.log( 40 != '20' ) // Not Equal
 
 console.log( 40 !== '40' ); // Strict Not Equal
+
+
+// Logical Operators
+
+// Logical AND  (  &&  )
+
+/* cond1 cond2 Result
+    true true  true
+    true false false
+    false true false
+    false false false
+*/
+
+let uAge = 18;
+
+console.log( uAge>=18 && uAge<=30 ); // true && true
+
+let uAge1 = 35;
+
+console.log( uAge1>=18 && uAge1<=30 ); // true && false
+
+let uAge2 = 16;
+
+console.log( uAge2>=18 && uAge2<=30 ); // flase && true
+
+
+let IDProof = "Aadhaar";
+
+console.log( IDProof=="PAN Card" && IDProof=="Licence" ); // false && false
+
+// Logical OR  ( || )
+
+/* cond1 cond2 Result
+    true true  true
+    true false true
+    false true true
+    false false false
+*/
+
+let pwd_input = "12345"
+
+console.log( pwd_input== "12345" || pwd_input=="54321" );  // true || false
+
+console.log( pwd_input== "54321" || pwd_input=="12345" );  // false || true
+
+let username = "ABC";
+
+console.log( pwd_input== "12345" || username=="ABC" );  // true || true
+
+console.log( pwd_input== "54321" || username=="ABCD" );  // false || false
+
+// Logical Not ( ! )
+
+console.log( !10 > 4 );
+
+console.log( !false );
+
+
